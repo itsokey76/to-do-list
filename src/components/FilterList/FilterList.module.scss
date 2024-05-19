@@ -1,0 +1,26 @@
+.FilterListsWrapper{
+  display: flex;
+  align-items:center;
+}
+
+
+.filterListItems{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  // width: 200px;
+  // overflow: auto;
+}
+
+
+
+
+#FlterListBG_1{
+  position: relative;
+  right: -5px;
+}
+
+#FlterListBG_2{
+  position: relative;
+  right: 5px;
+}

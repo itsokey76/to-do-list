@@ -18,4 +18,9 @@ declare module '*.jpg' {
   export default content;
 }
 
+declare module '*.jsx' {
+  const content: Record<string, string>;
+  export default content;
+}
+
 declare module '*.module.scss'

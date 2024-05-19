@@ -1,0 +1,211 @@
+.EditTaskWrapper{
+width: 912px;
+}
+
+.GeneralTitle{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+margin-bottom: 32px;
+}
+
+.titleStar{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  h3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+}
+
+.inputChecked{
+  display: flex;
+  gap: 10px;
+
+  
+  input{
+    padding-left: 5px;
+    border-radius: 6px;
+border: 1px solid #444;
+background: #1D1D23;
+width: 407px;
+color: rgba(255, 255, 255, 0.22);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  }
+}
+.SortWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.BtnsWrapper{
+  display: flex;
+  gap: 35px;
+
+  .FolderBtn{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+    padding: 10px 18px;
+    border-radius: 8px;
+border: 1px solid #444;
+background: #1D1D23;
+
+  }
+
+  .AttributeBtn{
+    padding: 11px 9px;
+    position: relative;
+    padding-right: 5px;
+    display: flex;
+    gap: 9px;
+    border-radius: 5px;
+border: 1px solid #444;
+background: #1D1D23;
+
+.attributeItem{
+  min-width: 77px;
+padding: 3px 1px;
+border-radius: 6px;
+border: 1px solid #FA2525;
+background: #BD2525;
+box-shadow: 0px 1px 3.4px 0px #FA2525;
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+  }
+
+  .AttributePopup{
+    min-width: 110px;
+    top: -1px;
+    right: -115px;
+    padding: 5px 0px;
+    position: absolute;
+background: #1D1D23;
+border: 1px solid #444;
+border-radius: 5px;
+height: 150px;
+overflow: auto;
+// :hover{
+//   background: rgba(255, 255, 255, 1);
+//   }
+  }
+
+  .itemWrapper{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    padding: 3px 5px;
+    background: rgba(255, 255, 255, 0);
+    transition: background 0.2s ease-in;
+
+
+    
+  }
+
+  .itemWrapper:hover{
+    background: rgba(255, 255, 255, 0.761);
+    
+  }
+
+  .active{
+    background: rgba(255, 255, 255, 0.761);
+
+  }
+
+
+}
+
+.TextAreaWrapper{
+  margin-top: 20px;
+  h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  textarea{
+    width: 912px;
+height: 400px;
+padding: 20px 17px;
+
+border-radius: 8px;
+border: 1px solid #444;
+background: rgba(240, 240, 240, 0.03);
+
+color: rgba(255, 255, 255, 0.8);
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+
+resize: none; /* Предотвращает растягивание */
+overflow: auto; /* Добавляет полосы прокрутки, если содержимое не помещается */
+  }
+}
+
+.BtnsWrapperBottom{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .DeleteBtn{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 14px 32px;
+border-radius: 6px;
+background: linear-gradient(93deg, #D32727 0.74%, #FF0E0E 99.26%);
+  }
+}
+
+.wrappper{
+  display: flex;
+  gap: 288px;
+
+  .callendarWrapper{
+    h2{
+      color: #FFF;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+margin-bottom: 15px;
+    }
+  }
+}

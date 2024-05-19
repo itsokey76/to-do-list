@@ -1,46 +1,4 @@
-@font-face {
-  font-family: 'Avenir Next LT Pro';
-  src: url('./fonts/AvenirNextLTPro-Regular.otf') format('opentype'),
-  /* Дополнительные параметры шрифта, например, font-weight, font-style и т.д. */
-}
 
-
-.root{
-  font-size: 20px;
-  color: #85859E;
-  display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.generalWrapper{
-  padding-left:  120px;
-}
-
-
-
-
-
-
-
-
-
-.generalWrapper{
-  width: 100vw;
-}
 
 .sortWrapper{
 
@@ -152,7 +110,4 @@ filter: blur(11.300000190734863px);
   // flex-direction: column;
   justify-content: right;
 }
-
-
-
 

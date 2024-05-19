@@ -1,0 +1,55 @@
+.topGeneral{
+  padding-right: 24px;
+  padding-top: 91px;
+
+  display: flex;
+  justify-content: space-between;
+  
+
+  // padding: 25px 30px;
+
+margin-bottom: 32px;
+  // button{
+  //   margin-left: auto;
+  // }
+  
+}
+
+.settingsDiv{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+// justify-content: right;
+
+}
+
+.settingsBtn{
+  img{
+    width: 24px;
+  height: 24px;
+  }
+
+  
+}
+
+.themeBtn{
+  
+
+  .themeBG{
+    border-radius: 8px;
+background: rgba(240, 240, 240, 0.03);
+width: 60px;
+padding: 5px 4px;
+
+
+div{
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  background: #7046F8;
+  transition: all 0.3s ease;
+}
+  }
+
+  
+}

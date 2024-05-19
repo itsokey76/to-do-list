@@ -1,0 +1,72 @@
+.sidebarWrapper{
+  padding: 98px 15px;
+  min-width: 251px;
+
+  // display: flex;
+  // flex-direction: column;
+  // gap: 40px;
+  
+
+  display: inline-block;
+  height: calc(100vh - 30px);
+
+  // background-color: white;
+
+  .logo{
+    h1{
+      color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+    }
+  
+    margin-bottom: 64px;
+  }
+}
+
+.optionName{
+  color: #9395DC;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 9px;
+}
+
+.options{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.optionItem{
+  padding: 11px 7px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+background: rgba(240, 240, 240, 0.03);
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+  a{
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+  }
+  
+}
+
+.optionItem:hover{
+  background-color: rgba(255, 255, 255, 0.047);
+
+}
+
+.ItemContent{
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  // .emojiImg{}
+}

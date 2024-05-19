@@ -1,9 +1,16 @@
 import { configureStore } from '@reduxjs/toolkit'
+import taskItemsSlice from './slices/taskItemsSlice';
+import attributesSlice from './slices/attributesSlice';
+import filterSlice from './slices/filterSlice';
+import foldersSlice from './slices/foldersSlice';
 // ...
 
 const store = configureStore({
   reducer: {
-    
+    taskItems: taskItemsSlice,
+    attributes: attributesSlice,
+    filters: filterSlice,
+    folders: foldersSlice
   },
 })
 

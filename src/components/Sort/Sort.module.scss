@@ -1,0 +1,122 @@
+ .sortBtn{
+  display: flex;
+  align-items: center;
+
+    h3{
+      color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+  }
+
+  .sortWrapper{
+    display: flex;
+    align-items: start;
+    position: relative;
+  }
+
+  .sortPopup{
+    position: absolute;
+    min-width: 191px;
+    right: -200px;
+    // bottom: calc(-1 * height);
+    padding: 7px 9px;
+    border-radius: 4px;
+background: #16161B;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+h2{
+  
+  color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.SortChecking{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  
+
+  .CheckOption{
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* стандартное свойство */
+  cursor: pointer;
+    color: rgba(132, 132, 157, 0.48);
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+}
+
+h4{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.48px;
+}
+
+.inputWrappper{
+  
+
+  .SortDate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* стандартное свойство */
+    padding: 5px 3px;
+    text-align: center;
+    width: 65px;
+    color: rgba(255, 255, 255, 0.22);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+border-radius: 5px;
+border: 1px solid #444;
+background: #1D1D23;
+  }
+
+  .calendarWrapper{
+    position: absolute;
+    top: 25px;
+
+  }
+}
+  }
+
+  .inputsWrapper{
+    margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }

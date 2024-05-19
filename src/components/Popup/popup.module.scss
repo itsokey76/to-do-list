@@ -1,0 +1,23 @@
+.popup{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+
+
+  background-color: #121215c2;
+  backdrop-filter: blur(3.9000000953674316px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  .popupWrapper{
+    margin: 0 auto;
+    padding: 10px 8px;
+    background-color: #19191C;
+    border-radius: 5px;
+    width: 485px;
+  }
+
+}

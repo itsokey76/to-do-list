@@ -1,0 +1,114 @@
+.AddAttributeWrapper{
+  position: absolute;
+  width: 231px;
+padding: 11px;
+border-radius: 8px;
+background: #19191C;
+
+right: -250px;
+
+
+
+.heading{
+  display: flex;
+    align-items:start;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  align-items: end;
+  h2{
+    color: #FFF;
+font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.28px;
+  }
+  button{
+    width: 18px;
+height: 18px;
+  }
+
+  
+}
+
+.centerContent{
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  input{
+    border-radius: 5px;
+border: 1px solid #444;
+
+background: #1D1D23;
+
+
+max-width: 148px;
+text-align: center;
+padding: 9px 5px;
+color: rgba(255, 255, 255, 0.22);
+
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+  }
+
+  ul{
+    margin-top: 17px;
+    width: 140px;
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+
+    li{
+      cursor: pointer;
+      width: 14px;
+height: 14px;
+border-radius: 2px;
+border: 1px solid #444;
+background: #1D1D23;
+    }
+  }
+
+  .AttributeItem{
+    margin-top: 20px;
+    display: inline-flex;
+padding: 2px 12px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 3px;
+border: 1px solid #FA2525;
+background: #BD2525;
+box-shadow: 0px 1px 3.4px 0px #FA2525;
+    color: #FFF;
+
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+
+  .AddAttrBtn{
+    margin-top: 35px;
+    padding: 3px 4px;
+    border-radius: 2px;
+background: #7046F8;
+
+display: flex;
+align-items: center;
+color: #FFF;
+font-family: Montserrat;
+font-size: 11px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+  }
+}
+}
