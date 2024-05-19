@@ -5,10 +5,10 @@ import styles from './Calendar.module.scss'
 import StrelkaSVG from '../../imgs/Strelka.svg'
 
 
-const Calendar = ({onClickNum, isActiveOn = false, activeNum}: {
+const Calendar = ({onClickNum, isActiveOn = false, activeNum = undefined}: {
   isActiveOn?: boolean;
   onClickNum: (date: {year: number, month: number, day: number}) => void;
-  activeNum: {year: number, month: number, day: number} | undefined;
+  activeNum?: {year: number, month: number, day: number} | undefined;
 }) => {
 
 
